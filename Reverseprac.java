@@ -6,7 +6,8 @@ public class Reverseprac {
 		// TODO Auto-generated method stub
 
 		String city = "ktm";
-
+       // 0    1   2  
+	//    k    t   m 
 		char a = city.charAt(3);
 		System.out.println(a);
 		System.out.println(city.length());
@@ -31,7 +32,41 @@ public class Reverseprac {
 			System.out.println(rev);
 
 		}
-
+		//index in reverse 
+		
+		String city2 = "dhangadi";
+		
+		// 0   1    2    3    4    5    6    7
+		// d   h    a    n    g    a    d    i 
+		
+		for(int i = city.length()-1 ; i >=0 ; i--) {
+			System.out.println(i);
+		}
+		
+		// character reverse 
+		
+		String city3= "dharan";
+		String rev2 = "";
+		
+		// 0    1   2    3   4   5
+		// d    h   a    r   a   n
+		
+	
+		System.out.println(city3.charAt(a));
+		rev2= rev2 + city3.charAt(a);
+		 
+		// ""   +  a  ====> d
+		// n    +  a =====> na
+		// na   +  r =====> nar
+		// nar  +  a =====> nara
+		// nara +  h =====> narah
+		// narah + d =====> narahd
+		
 	}
+	  System.out.println(rev);
+	  
+	   
+	
 
 }
+
