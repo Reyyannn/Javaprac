@@ -50,8 +50,12 @@ public class reverseString {
 			// 0 1 2 3 4 5 6 7
 			// b a l a m b h u
 
-			System.out.println(city3.charAt(i));
-			rev2 = rev2 + city3.charAt(i);
+			//System.out.println(city3.charAt(i));
+			//rev2 = rev2 + city3.charAt(i);
+			for(int j=0; j<city3.length();j++) {
+				rev2= city3.charAt(j)+ rev2;
+				
+			}
 
 			// "" + a =======> u
 			// u + h =======>uh
@@ -61,10 +65,10 @@ public class reverseString {
 			// uhbma + l =======> uhbmal
 			// uhbmal + a ======> uhbmala
 			// uhbmala + b =====> uhbmalab
-
+			System.out.println(rev2);
 		}
 
-		System.out.println(rev2);
+		
 
 	}
 }

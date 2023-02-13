@@ -52,8 +52,13 @@ public class Reverseprac {
 		// d    h   a    r   a   n
 		
 	
-		System.out.println(city3.charAt(a));
-		rev2= rev2 + city3.charAt(a);
+		// System.out.println(city3.charAt(a));
+		for(int k=0; k<city3.length();k++) {
+			rev2= city3.charAt(k)+rev2;
+			
+		}
+			
+		//rev2= rev2 + city3.charAt(a);
 		 
 		// ""   +  a  ====> d
 		// n    +  a =====> na
@@ -61,9 +66,9 @@ public class Reverseprac {
 		// nar  +  a =====> nara
 		// nara +  h =====> narah
 		// narah + d =====> narahd
-		
+		System.out.println(rev2);
 	}
-	  System.out.println(rev);
+	  
 	  
 	   
 	
