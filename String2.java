@@ -103,5 +103,15 @@ public class String2 {
 
 			}
 		}
+		
+		int a [][]= {{20,30,40}, {10,11,12}};
+		for(int [] b5: a) {
+			for(int b7 : b5) {
+				System.out.println(b7);
+			}
+		}
+		
+		
+		
 	}
 }

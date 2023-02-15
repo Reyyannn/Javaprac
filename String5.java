@@ -13,7 +13,7 @@ public class String5 {
 		for (int i = 0; i < salad.length(); i++) {
 			if (salad.charAt(i) == 'k') {
 				System.out.println(i);
-				count = count + 1;
+				count = count + 1;        ///???????
 			}
 
 		}
@@ -139,14 +139,15 @@ public class String5 {
 		System.out.println(numms[3]);
 		System.out.println(numms[4]);
 		
-		int [] nummms= new int [2];
+		int [] nummms= new int [3];
 		nummms[0]= 404;
 		nummms[1]= 104;
 		nummms[2]= 304;
 		System.out.println(nummms.length);
 		for(int i=0; i<nummms.length;i++) {
 			System.out.println(nummms[i]);		}
-				
+		
+		
 	}
 	
 }

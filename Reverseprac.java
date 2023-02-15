@@ -8,7 +8,7 @@ public class Reverseprac {
 		String city = "ktm";
        // 0    1   2  
 	//    k    t   m 
-		char a = city.charAt(3);
+		char a = city.charAt(2);
 		System.out.println(a);
 		System.out.println(city.length());
 
